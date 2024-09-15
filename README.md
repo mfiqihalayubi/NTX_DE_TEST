@@ -3,8 +3,8 @@
 ---
 Candidate Name : Muhammad Fiqih Al-ayubi
 
-Note :
-According to the note in the repository readme, I have to carry out 3 of 4 tasks, hence i only completed 3 of the 4 tasks
+Note : 
+According to the note in the repository readme, i have to carry out 3 of 4 tasks, hence i only completed 3 tasks
 ---
 
 Dear Candidate,
