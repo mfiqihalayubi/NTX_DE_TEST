@@ -1,0 +1,26 @@
+version: "3"
+services:
+  api:
+    build:
+      context: ./api
+      dockerfile: Dockerfile
+    ports:
+      - "6000:6000"
+    networks:
+      - my_network
+    restart: always
+
+  etl:
+    build:
+      context: ./etl
+      dockerfile: Dockerfile
+    networks:
+      - my_network
+    depends_on:
+      - api
+    restart: always
+
+networks:
+  my_network:
+    driver: bridge
+
